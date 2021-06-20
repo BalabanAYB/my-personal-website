@@ -1,0 +1,58 @@
+.cards {
+   border: 1px solid rgb(54, 54, 54);
+   border-radius: 10px;
+   margin-top: 15px;
+   margin: 15px;
+   padding: 30px;
+   background-color: rgba(19, 18, 18, 0.767);
+   height: 300px;
+   min-width: 250px;
+   width: 20vw;
+}
+
+.cards:hover {
+   cursor: pointer;
+   animation-duration: 0.5s;
+   animation-name: slidein;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+.cards:hover .cardContainer p{
+   animation-duration: 0.5s;
+   animation-name: hover;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+   from {
+      color: rgb(180, 180, 180)
+   }
+   to {
+      color: white;
+   }
+}
+
+@keyframes slidein {
+   from {
+      background-color: rgba(19, 18, 18, 0.767);
+   }
+   to {
+      background-image: linear-gradient( 90deg, #203f46, rgba(12, 12, 12, .741176));
+      margin-top: -6px;
+   }
+}
+
+.cardContainer img {
+   height: 70px;
+   width: 70px;
+}
+
+.cardContainer h3 {
+   color: white;
+}
+
+.cardContainer p {
+   color: rgb(180, 180, 180);
+}

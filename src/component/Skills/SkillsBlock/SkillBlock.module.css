@@ -1,0 +1,13 @@
+.title {
+   color: white;
+   text-align: center;
+}
+
+.skillItem{
+   margin: 0 auto;
+}
+
+.blockContainer .container {
+   display: flex;
+   flex-wrap: wrap;
+}

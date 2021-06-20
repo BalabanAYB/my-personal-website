@@ -1,0 +1,105 @@
+.sectionFacial{
+   width: 100%;
+   height: 100%;
+   padding-top: 85px;
+   
+  background-image: url('./../../assets/img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facial {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   height: 450px;
+   border: solid 1px rgb(19, 18, 18);
+   background-color: rgba(8, 8, 8, 0.836);
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.myPhoto {
+   background-image: url('../../assets/img/myPhoto.jpg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 100%;
+   width: 35%;
+}
+
+.cardBlock{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   height: 90%;
+}
+
+.button {
+   background-color: rgb(111, 202, 19);
+}
+
+.title h1,
+.title span {
+   color:rgb(111, 202, 19);
+}
+
+.title h1 {
+   margin: 0;
+}
+
+.title span {
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.aboutMeBlock{
+   width: 29vw;
+}
+
+.aboutMe{
+   width: 100%;
+
+   color: white;
+}
+
+.contacts {
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.contacts h5 {
+   color: rgb(111, 202, 19);
+}
+
+.contacts span {
+   color: white;
+}
+
+.socials{
+   display: flex;
+}
+
+.linkedin {
+   display: block;
+   width: 50px;
+   height: 50px;
+   background: url('../../assets/img/socialIcons/linkedin.svg');
+}
+
+.linkedin:hover{
+   background: url('../../assets/img/socialIcons/linkedinHover.svg');
+}
+
+.instagram {
+   display: block;
+   width: 50px;
+   height: 50px;
+   background: url('../../assets/img/socialIcons/instagram.svg');
+   background-size: contain;
+}
+
+.instagram:hover {
+   background: url('../../assets/img/socialIcons/instagramHover.svg');
+   background-size: contain;
+} 

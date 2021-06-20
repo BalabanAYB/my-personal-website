@@ -1,0 +1,25 @@
+.buildPage{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-color: rgb(41, 40, 40);
+}
+
+.buildItem img{
+   margin-left: 40%;
+    height: 80px;
+    width: 80px;
+}
+
+.buildItem {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.buildItem h1 {
+   color: rgb(224, 222, 222);
+}
